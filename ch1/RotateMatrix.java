@@ -3,6 +3,7 @@ public class RotateMatrix {
 	
 	public static void main(String[] args) {
 		
+		//Test
 		int[][] arr= { {1, 2, 3, 4},
 		        {5, 6, 7, 8},
 		        {9, 10, 11, 12},
@@ -14,6 +15,8 @@ public class RotateMatrix {
 	}
 
 	private static void rotate90(int[][] arr) {
+		
+		//Transpose
 		int r = arr.length;
 		int c = arr[0].length;
 		for(int i=0;i<r;i++) {
@@ -24,6 +27,7 @@ public class RotateMatrix {
 			}
 		}
 		
+		//Reversing columns for anti-clockwise rotate
 		for (int i=0; i<c; i++)
 	        for (int j=0,  k=c-1; j<k; j++,k--) {
 	        		int temp = arr[j][i];
