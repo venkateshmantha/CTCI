@@ -1,6 +1,10 @@
 public class StackSort{
 	
+<<<<<<< HEAD
 	//sort method
+=======
+
+>>>>>>> cd5072b165b03029d239f1c3273244ba140e9fa6
 	public void sort(Stack<Integer> s){
 
 		Stack<Integer> r = new Stack();
@@ -18,4 +22,8 @@ public class StackSort{
 
 	}
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> cd5072b165b03029d239f1c3273244ba140e9fa6
