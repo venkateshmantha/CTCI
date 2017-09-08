@@ -1,6 +1,6 @@
 public class StackSort{
 	
-
+	//sort method
 	public void sort(Stack<Integer> s){
 
 		Stack<Integer> r = new Stack();
