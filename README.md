@@ -1,2 +1,2 @@
 # CTCI
-Solutions to problems on CTCI in Java
+My solutions to problems in CTCI
